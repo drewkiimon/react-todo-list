@@ -39,7 +39,7 @@ class App extends Component {
       <TodoItem key={todo} todo={todo} callback={this.callback} />
     ));
     return (
-      <div className="container">
+      <div className="container pt-2">
         <div className="row">
           <div className="col-md-8 offset-md-2">
             <form onSubmit={this.handleSubmit}>
@@ -50,7 +50,7 @@ class App extends Component {
                 placeholder="Enter todo item here..."
               />
             </form>
-            <ul className="list-group-flush">{todos}</ul>
+            <ul className="list-group list-group-flush pt-2">{todos}</ul>
           </div>
         </div>
       </div>

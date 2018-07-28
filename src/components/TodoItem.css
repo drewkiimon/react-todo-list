@@ -6,3 +6,7 @@ li {
   word-wrap: normal;
   overflow-y: hidden;
 }
+
+ul {
+  list-style-type: none;
+}
